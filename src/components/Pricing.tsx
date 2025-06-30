@@ -5,64 +5,64 @@ import { Check, Star } from "lucide-react";
 const Pricing = () => {
   const plans = [
     {
-      name: "Starter",
-      price: "$99",
-      period: "/month",
-      description: "Perfect for small businesses getting started with automation",
+      name: "Basic Design",
+      price: "₹1,50,000",
+      period: "/project",
+      description: "Perfect for single room makeovers and small spaces",
       features: [
-        "Up to 5 AI agents",
-        "1,000 monthly tasks",
-        "Basic integrations",
-        "Email support",
-        "Dashboard analytics"
+        "Single room design",
+        "2D floor plan",
+        "Color consultation",
+        "Basic furniture layout",
+        "Material selection guide"
       ],
       popular: false
     },
     {
-      name: "Professional",
-      price: "$299",
-      period: "/month",
-      description: "Ideal for growing companies with complex workflows",
+      name: "Complete Home",
+      price: "₹5,00,000",
+      period: "/project",
+      description: "Comprehensive design solution for entire homes",
       features: [
-        "Up to 20 AI agents",
-        "10,000 monthly tasks",
-        "Advanced integrations",
-        "Priority support",
-        "Custom workflows",
-        "Team collaboration",
-        "Advanced analytics"
+        "Whole home design",
+        "3D visualization",
+        "Custom furniture design",
+        "Lighting design",
+        "Project management",
+        "Installation supervision",
+        "1 year warranty"
       ],
       popular: true
     },
     {
-      name: "Enterprise",
+      name: "Luxury Premium",
       price: "Custom",
       period: "pricing",
-      description: "Tailored solutions for large organizations",
+      description: "Bespoke luxury interiors with premium materials",
       features: [
-        "Unlimited AI agents",
-        "Unlimited tasks",
-        "Custom integrations",
-        "Dedicated support",
-        "White-label options",
-        "SLA guarantee",
-        "Advanced security",
-        "Custom training"
+        "Luxury material selection",
+        "Custom millwork",
+        "Designer furniture",
+        "Smart home integration",
+        "Dedicated project manager",
+        "Premium finishes",
+        "Lifetime support",
+        "International brands"
       ],
       popular: false
     }
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+    <section className="py-20 bg-gradient-to-br from-gray-50 to-amber-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Simple, Transparent
-            <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent"> Pricing</span>
+            Design Packages
+            <span className="bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent"> & Pricing</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choose the perfect plan for your business. Scale up or down anytime.
+            Choose the perfect interior design package that fits your needs and budget.
           </p>
         </div>
         
@@ -71,12 +71,12 @@ const Pricing = () => {
             <div 
               key={index} 
               className={`relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 ${
-                plan.popular ? 'border-2 border-blue-500 ring-4 ring-blue-100' : 'border border-gray-200'
+                plan.popular ? 'border-2 border-amber-500 ring-4 ring-amber-100' : 'border border-gray-200'
               }`}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center">
+                  <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center">
                     <Star className="h-4 w-4 mr-1" />
                     Most Popular
                   </div>
@@ -95,12 +95,12 @@ const Pricing = () => {
                 <Button 
                   className={`w-full mb-8 py-3 rounded-full font-semibold ${
                     plan.popular 
-                      ? 'bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white' 
-                      : 'border-2 border-blue-600 text-blue-600 hover:bg-blue-50'
+                      ? 'bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white' 
+                      : 'border-2 border-amber-600 text-amber-600 hover:bg-amber-50'
                   }`}
                   variant={plan.popular ? 'default' : 'outline'}
                 >
-                  {plan.name === 'Enterprise' ? 'Contact Sales' : 'Get Started'}
+                  {plan.name === 'Luxury Premium' ? 'Contact Us' : 'Get Started'}
                 </Button>
                 
                 <ul className="space-y-4">

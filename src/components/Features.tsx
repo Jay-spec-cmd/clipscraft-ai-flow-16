@@ -1,37 +1,37 @@
 
-import { Bot, Zap, Shield, BarChart3, Clock, Users } from "lucide-react";
+import { Home, Palette, Ruler, Sofa, Lightbulb, Users } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
-      icon: Bot,
-      title: "Intelligent AI Agents",
-      description: "Custom-built AI agents that understand your business processes and execute tasks with precision."
+      icon: Home,
+      title: "Full Home Interiors",
+      description: "Complete home makeovers with our comprehensive interior design services for every room."
     },
     {
-      icon: Zap,
-      title: "Lightning Fast Automation",
-      description: "Reduce manual work by 85% with AI-powered workflows that run instantly and continuously."
+      icon: Sofa,
+      title: "Modular Kitchen & Furniture",
+      description: "Custom-designed modular kitchens and furniture solutions tailored to your space and needs."
     },
     {
-      icon: Shield,
-      title: "Enterprise Security",
-      description: "Bank-level encryption and security protocols to keep your data safe and compliant."
+      icon: Palette,
+      title: "Color Consultation",
+      description: "Expert color schemes and palette selection to create the perfect ambiance for your home."
     },
     {
-      icon: BarChart3,
-      title: "Advanced Analytics",
-      description: "Real-time insights and performance metrics to optimize your automated processes."
+      icon: Ruler,
+      title: "Space Planning",
+      description: "Optimal space utilization with smart design solutions that maximize functionality and aesthetics."
     },
     {
-      icon: Clock,
-      title: "24/7 Operation",
-      description: "Your AI agents work around the clock, ensuring continuous productivity even when you sleep."
+      icon: Lightbulb,
+      title: "Lighting Design",
+      description: "Professional lighting solutions that enhance mood and highlight your interior's best features."
     },
     {
       icon: Users,
-      title: "Team Collaboration",
-      description: "Seamlessly integrate with your existing tools and enable team-wide automation adoption."
+      title: "Personal Design Consultant",
+      description: "Dedicated design consultants who work with you from concept to completion."
     }
   ];
 
@@ -40,11 +40,11 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Powerful Features for
-            <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent"> Modern Businesses</span>
+            Our Interior Design
+            <span className="bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent"> Services</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Everything you need to automate your workflows and scale your operations with confidence.
+            From concept to completion, we offer comprehensive interior design services to transform your space.
           </p>
         </div>
         
@@ -52,9 +52,9 @@ const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100"
+              className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300 hover:scale-105 border border-amber-100"
             >
-              <div className="bg-gradient-to-r from-blue-600 to-indigo-600 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+              <div className="bg-gradient-to-r from-amber-600 to-orange-600 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
                 <feature.icon className="h-6 w-6 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">{feature.title}</h3>

@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin, Twitter, Linkedin, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Facebook, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,69 +9,69 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="mb-6">
               <img 
-                src="/lovable-uploads/921fc471-d2b5-4620-b9c6-ed6d4dfce764.png" 
-                alt="ClipsCraft Logo" 
-                className="h-12 mb-4 brightness-0 invert"
+                src="/lovable-uploads/bee0ca78-94c2-4bb3-8e9e-962038d21dd3.png" 
+                alt="JP Interios Logo" 
+                className="h-16 mb-4 brightness-0 invert"
               />
               <p className="text-gray-400 max-w-md leading-relaxed">
-                ClipsCraft empowers businesses with intelligent AI automation solutions. 
-                Transform your workflows and boost productivity with our cutting-edge AI agents.
+                JP Interios is your trusted partner in creating beautiful, functional living spaces. 
+                With 20 years of experience, we transform houses into dream homes.
               </p>
             </div>
             
             <div className="space-y-3">
               <div className="flex items-center text-gray-400">
                 <Mail className="h-5 w-5 mr-3" />
-                <span>hello@clipscraft.com</span>
+                <span>info@jpinterios.com</span>
               </div>
               <div className="flex items-center text-gray-400">
                 <Phone className="h-5 w-5 mr-3" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 98765 43210</span>
               </div>
               <div className="flex items-center text-gray-400">
                 <MapPin className="h-5 w-5 mr-3" />
-                <span>San Francisco, CA</span>
+                <span>Mumbai, Maharashtra, India</span>
               </div>
             </div>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Product</h3>
+            <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Integrations</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">API</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Full Home Interiors</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Modular Kitchen</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Custom Furniture</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Space Planning</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Lighting Design</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Portfolio</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 mb-4 md:mb-0">
-            © 2024 ClipsCraft. All rights reserved.
+            © 2024 JP Interios. All rights reserved.
           </p>
           
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Twitter className="h-5 w-5" />
+              <Instagram className="h-5 w-5" />
             </a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Linkedin className="h-5 w-5" />
+              <Facebook className="h-5 w-5" />
             </a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Github className="h-5 w-5" />
+              <Youtube className="h-5 w-5" />
             </a>
           </div>
         </div>
