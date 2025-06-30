@@ -21,22 +21,22 @@ const Hero = () => {
           />
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+        <h1 className="font-playfair text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
           Home to Dream
           <span className="bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent"> Interiors</span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p className="font-inter text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed font-light">
           Transform your living space with JP Interios. We create personalized interior designs that reflect your style and enhance your lifestyle with expert craftsmanship.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button size="lg" className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+          <Button size="lg" className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 font-inter">
             Book Free Consultation
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
           
-          <Button variant="outline" size="lg" className="border-2 border-amber-600 text-amber-600 hover:bg-amber-50 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105">
+          <Button variant="outline" size="lg" className="border-2 border-amber-600 text-amber-600 hover:bg-amber-50 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 font-inter">
             <Play className="mr-2 h-5 w-5" />
             View Portfolio
           </Button>
@@ -44,20 +44,20 @@ const Hero = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
           <div className="bg-white/50 backdrop-blur-sm rounded-lg p-4 shadow-sm">
-            <div className="text-3xl font-bold text-amber-600">5k</div>
-            <div className="text-gray-600">Completed Projects</div>
+            <div className="font-playfair text-3xl font-bold text-amber-600">5k</div>
+            <div className="font-inter text-gray-600 font-medium">Completed Projects</div>
           </div>
           <div className="bg-white/50 backdrop-blur-sm rounded-lg p-4 shadow-sm">
-            <div className="text-3xl font-bold text-amber-600">20</div>
-            <div className="text-gray-600">Years of Excellence</div>
+            <div className="font-playfair text-3xl font-bold text-amber-600">20</div>
+            <div className="font-inter text-gray-600 font-medium">Years of Excellence</div>
           </div>
           <div className="bg-white/50 backdrop-blur-sm rounded-lg p-4 shadow-sm">
-            <div className="text-3xl font-bold text-amber-600">9k</div>
-            <div className="text-gray-600">Satisfied Clients</div>
+            <div className="font-playfair text-3xl font-bold text-amber-600">9k</div>
+            <div className="font-inter text-gray-600 font-medium">Satisfied Clients</div>
           </div>
           <div className="bg-white/50 backdrop-blur-sm rounded-lg p-4 shadow-sm">
-            <div className="text-3xl font-bold text-amber-600">99%</div>
-            <div className="text-gray-600">Happy Rate</div>
+            <div className="font-playfair text-3xl font-bold text-amber-600">99%</div>
+            <div className="font-inter text-gray-600 font-medium">Happy Rate</div>
           </div>
         </div>
       </div>

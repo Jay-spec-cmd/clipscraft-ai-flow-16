@@ -57,11 +57,11 @@ const Pricing = () => {
     <section className="py-20 bg-gradient-to-br from-gray-50 to-amber-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
             Design Packages
             <span className="bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent"> & Pricing</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto font-light">
             Choose the perfect interior design package that fits your needs and budget.
           </p>
         </div>
@@ -76,7 +76,7 @@ const Pricing = () => {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center">
+                  <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center font-inter">
                     <Star className="h-4 w-4 mr-1" />
                     Most Popular
                   </div>
@@ -84,16 +84,16 @@ const Pricing = () => {
               )}
               
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
-                <p className="text-gray-600 mb-6">{plan.description}</p>
+                <h3 className="font-playfair text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
+                <p className="font-inter text-gray-600 mb-6 font-light">{plan.description}</p>
                 
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-gray-900">{plan.price}</span>
-                  <span className="text-gray-600">{plan.period}</span>
+                  <span className="font-playfair text-4xl font-bold text-gray-900">{plan.price}</span>
+                  <span className="font-inter text-gray-600">{plan.period}</span>
                 </div>
                 
                 <Button 
-                  className={`w-full mb-8 py-3 rounded-full font-semibold ${
+                  className={`w-full mb-8 py-3 rounded-full font-semibold font-inter ${
                     plan.popular 
                       ? 'bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white' 
                       : 'border-2 border-amber-600 text-amber-600 hover:bg-amber-50'
@@ -107,7 +107,7 @@ const Pricing = () => {
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center">
                       <Check className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                      <span className="text-gray-700">{feature}</span>
+                      <span className="font-inter text-gray-700">{feature}</span>
                     </li>
                   ))}
                 </ul>

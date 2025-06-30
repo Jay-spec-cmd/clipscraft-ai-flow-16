@@ -13,7 +13,7 @@ const Footer = () => {
                 alt="JP Interios Logo" 
                 className="h-16 mb-4 brightness-0 invert"
               />
-              <p className="text-gray-400 max-w-md leading-relaxed">
+              <p className="font-inter text-gray-400 max-w-md leading-relaxed font-light">
                 JP Interios is your trusted partner in creating beautiful, functional living spaces. 
                 With 20 years of experience, we transform houses into dream homes.
               </p>
@@ -22,44 +22,44 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center text-gray-400">
                 <Mail className="h-5 w-5 mr-3" />
-                <span>info@jpinterios.com</span>
+                <span className="font-inter">info@jpinterios.com</span>
               </div>
               <div className="flex items-center text-gray-400">
                 <Phone className="h-5 w-5 mr-3" />
-                <span>+91 98765 43210</span>
+                <span className="font-inter">+91 98765 43210</span>
               </div>
               <div className="flex items-center text-gray-400">
                 <MapPin className="h-5 w-5 mr-3" />
-                <span>Mumbai, Maharashtra, India</span>
+                <span className="font-inter">Mumbai, Maharashtra, India</span>
               </div>
             </div>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <h3 className="font-playfair text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Full Home Interiors</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Modular Kitchen</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Custom Furniture</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Space Planning</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Lighting Design</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">Full Home Interiors</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">Modular Kitchen</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">Custom Furniture</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">Space Planning</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">Lighting Design</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
+            <h3 className="font-playfair text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Portfolio</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">Portfolio</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">Blog</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">Contact</a></li>
+              <li><a href="#" className="font-inter hover:text-white transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 mb-4 md:mb-0">
+          <p className="font-inter text-gray-400 mb-4 md:mb-0">
             © 2024 JP Interios. All rights reserved.
           </p>
           

@@ -39,11 +39,11 @@ const Features = () => {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
             Our Interior Design
             <span className="bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent"> Services</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto font-light">
             From concept to completion, we offer comprehensive interior design services to transform your space.
           </p>
         </div>
@@ -57,8 +57,8 @@ const Features = () => {
               <div className="bg-gradient-to-r from-amber-600 to-orange-600 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
                 <feature.icon className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">{feature.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+              <h3 className="font-playfair text-xl font-semibold text-gray-900 mb-4">{feature.title}</h3>
+              <p className="font-inter text-gray-600 leading-relaxed">{feature.description}</p>
             </div>
           ))}
         </div>

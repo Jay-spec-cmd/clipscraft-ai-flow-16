@@ -30,11 +30,11 @@ const Testimonials = () => {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
             What Our Clients
             <span className="bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent"> Say</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto font-light">
             Discover why families trust JP Interios to transform their homes into beautiful, functional spaces.
           </p>
         </div>
@@ -51,7 +51,7 @@ const Testimonials = () => {
                 ))}
               </div>
               
-              <p className="text-gray-700 mb-6 leading-relaxed italic">
+              <p className="font-inter text-gray-700 mb-6 leading-relaxed italic font-light">
                 "{testimonial.content}"
               </p>
               
@@ -62,8 +62,8 @@ const Testimonials = () => {
                   className="w-12 h-12 rounded-full mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                  <p className="text-gray-600 text-sm">{testimonial.role}</p>
+                  <h4 className="font-playfair font-semibold text-gray-900">{testimonial.name}</h4>
+                  <p className="font-inter text-gray-600 text-sm">{testimonial.role}</p>
                 </div>
               </div>
             </div>
